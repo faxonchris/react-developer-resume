@@ -4,6 +4,17 @@ export const PROFILE_PIC_LINK = "headshot.jpg";
 export const NAME = "Christopher Faxon";
 export const JOB_TITLE = "Software Engineer";
 
+export const UNIV_SCHOOL = "Rensselaer Polytechnic Institute";
+export const UNIV_DEGREE = "Bachelor of Science in Computer Science";
+export const UNIV_MINOR = "Economics of Banking and Finance";
+export const UNIV_YEARS = "2018-2022";
+
+export const UNIV_BACKGROUND_IMAGE = "rpi.png";
+
+export const GITHUB_LINK = "https://github.com/faxonchris/";
+
+export const LINKEDIN_LINK = "https://www.linkedin.com/in/christopher-faxon-93758a1a9/";
+
 export const JOBS_ARRAY : Array<Job> = [
     {
         jobName: "Software Engineer",

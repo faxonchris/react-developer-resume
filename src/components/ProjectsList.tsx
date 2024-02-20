@@ -1,7 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
 import { Card, CardBody, CardFooter, CardHeader, Divider, Link, Image, Accordion, AccordionItem, Avatar, Tooltip, Button } from '@nextui-org/react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
 import Timeline from '@mui/lab/Timeline';
 import TimelineItem from '@mui/lab/TimelineItem';
@@ -45,9 +44,14 @@ function ProjectsList() {
                             <Button radius="full" className="bg-slate-500">
                             </Button>
                         </ListModal>
-                    {project.link !== undefined ? <Button radius="full" className="bg-gradient-to-bl from-purple-700 via-indigo-700 to-blue-500 ml-2" href={project.link}>
+                    {project.link !== undefined ? 
+                    <Link href={project.link} target='_blank'>
+                    <Button 
+                        radius="full" 
+                        className="bg-gradient-to-bl from-purple-700 via-indigo-700 to-blue-500 ml-2" 
+                        >
                         View Project
-                    </Button>  : <></>}
+                    </Button></Link>  : <></>}
                     </CardFooter>
                 </Card>
                 

@@ -1,15 +1,6 @@
 import React, { Children, PropsWithChildren } from 'react';
 import logo from './logo.svg';
 import { Card, CardBody, CardFooter, CardHeader, Divider, Link, Image, Accordion, AccordionItem, Avatar, Tooltip, useDisclosure, Button, Modal, ModalBody, ModalContent, ModalFooter, ModalHeader, Chip } from '@nextui-org/react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
-import Timeline from '@mui/lab/Timeline';
-import TimelineItem from '@mui/lab/TimelineItem';
-import TimelineSeparator from '@mui/lab/TimelineSeparator';
-import TimelineConnector from '@mui/lab/TimelineConnector';
-import TimelineContent from '@mui/lab/TimelineContent';
-import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
-import TimelineDot from '@mui/lab/TimelineDot';
 import { IListModalProps } from '../types/Types';
 
 function ListModal(props: PropsWithChildren<IListModalProps>) {
