@@ -2,6 +2,8 @@
 
 This is a simple, customizable template for a React TypeScript resume website.
 
+[https://chrisfaxon.dev](View a Working Example Here! (My Resume))
+
 The project utilizes TailwindCSS for styling and both [https://github.com/nextui-org/nextui](NextUI) and [https://github.com/mui/material-ui](MaterialUI) components.
 
 ## Get started
