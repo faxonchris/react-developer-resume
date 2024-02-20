@@ -21,7 +21,7 @@ export const LINKEDIN_LINK =
 export const JOBS_ARRAY: Array<Job> = [
   {
     jobName: "Software Engineer",
-    companyName: "InterPro",
+    companyName: "InterPro Solutions",
     location: "Stoneham, MA",
     years: "Jun 2022 - Present",
     resumeBullets: [
