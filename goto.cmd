@@ -1,1 +1,0 @@
-cd C:\Users\chris\Documents\EverySBD\EverySBD\frontend\frontend
