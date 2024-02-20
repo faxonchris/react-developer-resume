@@ -1,15 +1,26 @@
-import { Button, Chip, Divider, Image, Modal, ModalBody, ModalContent, ModalFooter, ModalHeader, useDisclosure } from '@nextui-org/react';
-import { PropsWithChildren } from 'react';
-import { IListModalProps } from '../types/Types';
+import {
+  Button,
+  Chip,
+  Divider,
+  Image,
+  Modal,
+  ModalBody,
+  ModalContent,
+  ModalFooter,
+  ModalHeader,
+  useDisclosure,
+} from "@nextui-org/react";
+import { PropsWithChildren } from "react";
+import { IListModalProps } from "../types/Types";
 
 function ListModal(props: PropsWithChildren<IListModalProps>) {
-    const {isOpen, onOpen, onClose} = useDisclosure();
-    return (
+  const { isOpen, onOpen, onClose } = useDisclosure();
+  return (
     <div>
-        <Modal 
+      <Modal
         size="md"
-        isOpen={isOpen} 
-        onClose={onClose} 
+        isOpen={isOpen}
+        onClose={onClose}
         placement="top-center"
         backdrop="blur"
         scrollBehavior="inside"
@@ -17,27 +28,31 @@ function ListModal(props: PropsWithChildren<IListModalProps>) {
         <ModalContent>
           {(onClose) => (
             <>
-              <ModalHeader className="flex flex-col gap-1">{props.title}</ModalHeader>
+              <ModalHeader className="flex flex-col gap-1">
+                {props.title}
+              </ModalHeader>
               <ModalBody>
-                {props.image ? <div>
-                   <Image src={props.image} />
-              <Divider />
-              </div> : <></>}
+                {props.image ? (
+                  <div>
+                    <Image src={props.image} />
+                    <Divider />
+                  </div>
+                ) : (
+                  <></>
+                )}
                 <div className="flex flex-col gap-2">
-                    {props.bullets.map(bullet => (
-                        <div>
-                            • {bullet}
-                        </div>
-                    ))}
+                  {props.bullets.map((bullet) => (
+                    <div>• {bullet}</div>
+                  ))}
                 </div>
                 <Divider />
-                <p className="text-md">
-                    Skills
-                </p>
+                <p className="text-md">Skills</p>
                 <div className="flex flex-row flex-wrap gap-2">
-                    {props.skills.map(skill => (
-                        <Chip color="primary" variant="shadow">{skill}</Chip>
-                    ))}
+                  {props.skills.map((skill) => (
+                    <Chip color="primary" variant="shadow">
+                      {skill}
+                    </Chip>
+                  ))}
                 </div>
               </ModalBody>
               <ModalFooter>
@@ -49,7 +64,12 @@ function ListModal(props: PropsWithChildren<IListModalProps>) {
           )}
         </ModalContent>
       </Modal>
-      <Button onClick={onOpen} size={props.buttonSize ? props.buttonSize : "sm"} radius="full" className="bg-slate-200 text-slate-700">
+      <Button
+        onClick={onOpen}
+        size={props.buttonSize ? props.buttonSize : "sm"}
+        radius="full"
+        className="bg-slate-200 text-slate-700"
+      >
         More Info
       </Button>
     </div>
