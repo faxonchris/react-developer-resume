@@ -4,6 +4,8 @@ export const PROFILE_PIC_LINK = "headshot.jpg";
 export const NAME = "Christopher Faxon";
 export const JOB_TITLE = "Software Engineer";
 
+export const RESUME_LINK = "christopher_faxon_resume.pdf";
+
 export const UNIV_SCHOOL = "Rensselaer Polytechnic Institute";
 export const UNIV_DEGREE = "Bachelor of Science in Computer Science";
 export const UNIV_MINOR = "Economics of Banking and Finance";

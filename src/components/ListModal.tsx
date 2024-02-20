@@ -50,7 +50,7 @@ function ListModal(props: PropsWithChildren<IListModalProps>) {
           )}
         </ModalContent>
       </Modal>
-      <Button onClick={onOpen} size={props.buttonSize ? props.buttonSize : "sm"} radius="full">
+      <Button onClick={onOpen} size={props.buttonSize ? props.buttonSize : "sm"} radius="full" className="bg-slate-200 text-slate-700">
         More Info
       </Button>
     </div>

@@ -33,7 +33,7 @@ function ExperiencesTimeline() {
                     <TimelineConnector />
                     </TimelineSeparator>
                     <TimelineContent className="text-md">
-                        <div className="flex flex-col mb-1">
+                        <div className="flex flex-col mb-1.5">
                             <p className="text-md">{job.jobName}</p>
                             <p className="text-xs text-default-500 text-wrap">{job.companyName}</p>
                             <p className="text-xs text-default-500">{job.location}</p>
