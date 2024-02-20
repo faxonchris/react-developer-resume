@@ -15,7 +15,7 @@ import { Project } from '../types/Types';
 
 function Education() {
   return (
-    <div className="flex flex-col"> 
+    <div className="flex flex-col mb-2"> 
         <Card isFooterBlurred className="min-h-[200px]">
                     <CardHeader className="absolute z-10 top-1 flex-col !items-start">
                         <h4 className="text-white font-medium text-large">{UNIV_SCHOOL}</h4>

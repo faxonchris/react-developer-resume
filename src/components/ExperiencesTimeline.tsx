@@ -18,7 +18,7 @@ import { FaBriefcase } from "react-icons/fa6";
 
 function ExperiencesTimeline() {
   return (
-    <Timeline> 
+    <Timeline className="mb-2"> 
         {JOBS_ARRAY.map((job: Job) => {
             return (
                 <TimelineItem>

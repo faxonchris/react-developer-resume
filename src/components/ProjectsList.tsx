@@ -15,7 +15,7 @@ import { Project } from '../types/Types';
 
 function ProjectsList() {
   return (
-    <div className="flex flex-col gap-4"> 
+    <div className="flex flex-col gap-4 mb-2"> 
         {PROJECTS_ARRAY.map((project: Project) => {
             return (
                 <Card isFooterBlurred className="min-h-[200px]">

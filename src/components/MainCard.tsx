@@ -7,7 +7,7 @@ import ProjectsList from "./ProjectsList";
 
 function MainCard() {
   return (
-      <Card className="w-[98%] sm:w-[600px] my-3" shadow="lg">
+      <Card className="bg-slate-800 w-[98%] sm:w-[600px] my-3" shadow="lg">
       <CardHeader className="flex gap-3">
       <Avatar src={PROFILE_PIC_LINK} size="lg" />
         <div className="flex flex-col">
