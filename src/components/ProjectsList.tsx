@@ -1,17 +1,7 @@
-import React from 'react';
-import logo from './logo.svg';
-import { Card, CardBody, CardFooter, CardHeader, Divider, Link, Image, Accordion, AccordionItem, Avatar, Tooltip, Button } from '@nextui-org/react';
-import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
-import Timeline from '@mui/lab/Timeline';
-import TimelineItem from '@mui/lab/TimelineItem';
-import TimelineSeparator from '@mui/lab/TimelineSeparator';
-import TimelineConnector from '@mui/lab/TimelineConnector';
-import TimelineContent from '@mui/lab/TimelineContent';
-import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
-import TimelineDot from '@mui/lab/TimelineDot';
-import ListModal from './ListModal';
+import { Button, Card, CardFooter, CardHeader, Image, Link } from '@nextui-org/react';
 import { PROJECTS_ARRAY } from '../data/ResumeData';
 import { Project } from '../types/Types';
+import ListModal from './ListModal';
 
 function ProjectsList() {
   return (

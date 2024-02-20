@@ -1,17 +1,14 @@
-import React from 'react';
-import logo from './logo.svg';
-import { Card, CardBody, CardFooter, CardHeader, Divider, Link, Image, Accordion, AccordionItem, Avatar, Tooltip } from '@nextui-org/react';
 import Timeline from '@mui/lab/Timeline';
-import TimelineItem from '@mui/lab/TimelineItem';
-import TimelineSeparator from '@mui/lab/TimelineSeparator';
 import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
-import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
 import TimelineDot from '@mui/lab/TimelineDot';
-import ListModal from './ListModal';
+import TimelineItem from '@mui/lab/TimelineItem';
+import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
+import TimelineSeparator from '@mui/lab/TimelineSeparator';
+import { FaBriefcase } from "react-icons/fa6";
 import { JOBS_ARRAY } from '../data/ResumeData';
 import { Job } from '../types/Types';
-import { FaBriefcase } from "react-icons/fa6";
+import ListModal from './ListModal';
 
 
 

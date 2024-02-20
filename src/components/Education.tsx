@@ -1,17 +1,5 @@
-import React from 'react';
-import logo from './logo.svg';
-import { Card, CardBody, CardFooter, CardHeader, Divider, Link, Image, Accordion, AccordionItem, Avatar, Tooltip, Button } from '@nextui-org/react';
-import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
-import Timeline from '@mui/lab/Timeline';
-import TimelineItem from '@mui/lab/TimelineItem';
-import TimelineSeparator from '@mui/lab/TimelineSeparator';
-import TimelineConnector from '@mui/lab/TimelineConnector';
-import TimelineContent from '@mui/lab/TimelineContent';
-import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
-import TimelineDot from '@mui/lab/TimelineDot';
-import ListModal from './ListModal';
-import { PROJECTS_ARRAY, UNIV_BACKGROUND_IMAGE, UNIV_DEGREE, UNIV_MINOR, UNIV_SCHOOL, UNIV_YEARS } from '../data/ResumeData';
-import { Project } from '../types/Types';
+import { Card, CardFooter, CardHeader, Image } from '@nextui-org/react';
+import { UNIV_BACKGROUND_IMAGE, UNIV_DEGREE, UNIV_MINOR, UNIV_SCHOOL, UNIV_YEARS } from '../data/ResumeData';
 
 function Education() {
   return (

@@ -1,6 +1,5 @@
-import React, { Children, PropsWithChildren } from 'react';
-import logo from './logo.svg';
-import { Card, CardBody, CardFooter, CardHeader, Divider, Link, Image, Accordion, AccordionItem, Avatar, Tooltip, useDisclosure, Button, Modal, ModalBody, ModalContent, ModalFooter, ModalHeader, Chip } from '@nextui-org/react';
+import { Button, Chip, Divider, Image, Modal, ModalBody, ModalContent, ModalFooter, ModalHeader, useDisclosure } from '@nextui-org/react';
+import { PropsWithChildren } from 'react';
 import { IListModalProps } from '../types/Types';
 
 function ListModal(props: PropsWithChildren<IListModalProps>) {
