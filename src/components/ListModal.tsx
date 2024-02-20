@@ -65,6 +65,7 @@ function ListModal(props: PropsWithChildren<IListModalProps>) {
         </ModalContent>
       </Modal>
       <Button
+        variant="shadow"
         onClick={onOpen}
         size={props.buttonSize ? props.buttonSize : "sm"}
         radius="full"

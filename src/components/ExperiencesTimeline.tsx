@@ -17,7 +17,7 @@ function ExperiencesTimeline() {
         return (
           <TimelineItem>
             <TimelineOppositeContent sx={{ m: "auto 0" }} align="right">
-              <div className="text-slate-600 text-sm">{job.years}</div>
+              <div className="text-slate-400 text-sm">{job.years}</div>
             </TimelineOppositeContent>
             <TimelineSeparator>
               <TimelineConnector />
