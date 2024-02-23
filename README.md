@@ -1,4 +1,4 @@
-# React.ts Resume Template
+# React.ts Resume Template by Chris Faxon
 
 This is a simple, customizable template for a React TypeScript resume website.
 
