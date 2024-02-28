@@ -16,7 +16,7 @@ export const UNIV_BACKGROUND_IMAGE = "rpi.png";
 export const GITHUB_LINK = "https://github.com/faxonchris/";
 
 export const LINKEDIN_LINK =
-  "https://www.linkedin.com/in/christopher-faxon-93758a1a9/";
+  "https://www.linkedin.com/in/christopher-faxon/";
 
 export const JOBS_ARRAY: Array<Job> = [
   {
